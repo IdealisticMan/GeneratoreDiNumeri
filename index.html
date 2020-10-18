@@ -11,7 +11,7 @@
     margin-bottom: 10px;
     border-radius: 10px;
 }
-        .submit {
+       .submit {
     background-color: #3fb6b2;
     font-family: 'Handlee';
     width: 33%;
@@ -59,6 +59,23 @@
     text-align:right; 
     font-size:10pt;
 }
+        ._submit {
+    background-color: #3fb6b2;
+    font-family: 'Handlee';
+    width: 6%;
+    border-radius: 50%;
+    padding: 0px 0px 0px;
+    cursor: pointer;
+    color: #ffffff;
+    border-color:black;
+    border-width:2px;
+    border-style:solid;
+    font-size: 13pt;
+    outline: none;
+    margin-left: 10px;
+    font-weight: bold;
+    position: 20x;
+}   
     </style>
 <script>
 function Random() {
@@ -71,15 +88,14 @@ function Random() {
     <div align="center" class="section">
         <fieldset><legend align="center"><h1><span style="color:#4B4B4B;">Generatore da 1 a 18</span></h1></legend>
     <form name="scemochilegge" >
-        <input type="text" id="tb" name="lol" align="center"/>
-        <p><input type="button" value="GENERA" onclick="Random();" class="submit" /></p>
+        <input type="text" id="tb" name="lol" align="center"/> 
+        <p style="text-align:center;">
+        <input type="button" value="GENERA" onclick="Random();" class="submit" />
+        <input type="reset" class="_submit" value="⭯"></p>     
+        
     </form>
 <div class="credits"><em>Developed By Me</em></div>
        </fieldset>
    </div> 
 </body>
 </html>
-
-
-
-
