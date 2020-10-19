@@ -88,6 +88,11 @@
 <script>
 function Random() {
         var rnd =  Math.floor(Math.random() * 18) + 1;
+        if(rnd==14) rnd = 2; 
+        if(rnd==16) rnd = 2;
+        if(rnd==17) rnd = 3; 
+        if(rnd==18) rnd = 3;
+        if(rnd==6) rnd = 3;
         document.getElementById('tb').value = rnd;
 }
 </script>
