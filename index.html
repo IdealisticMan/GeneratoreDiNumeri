@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Generatore Di Numeri</title>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+	<script type="text/javascript" src="script.js"></script>
+
+	<style>
+    
+        .section {
+    background-color: #CACACA;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+       .submit {
+    background-color: #3fb6b2;
+    font-family: 'Handlee';
+    width: 33%;
+    border-radius: 40px;
+    cursor: pointer;
+    margin-right:40px;
+    color: #ffffff;
+    border-color:black;
+    border-width:1px;
+    border-style:solid;
+    outline: none;
+    margin:0;
+    font-weight: bold;
+}
+        input {
+    margin-bottom: 14px;
+    text-align:center;
+    font-size: 20pt;
+    font-weight: bold;
+    padding: 15px 10px 10px;
+    border-color:black;
+    border-style:solid #494949;
+    border-width:1px;
+    background-color: #efefef;
+    color: #787575;
+    border-radius: 5px;
+    width: 33%;
+    outline: none;
+}
+        h1 span {
+    border: 4px dashed #494949;
+    padding: 10px;
+    border-radius:5px;
+    font-family: 'Handlee';
+    
+}
+        fieldset {
+    border: 4px dashed #494949;
+    width:600px;
+    border-radius:0px;
+}
+        body {
+    font-family: 'Handlee', cursive;
+    font-size: 13pt;
+    background-color: #efefef;
+    padding: 10px;
+    margin: 0;
+}
+        .credits {
+    text-align:right; 
+    font-size:10pt;
+}
+        ._submit {
+    background-color: #3fb6b2;
+    border-radius: 0px 0px 30px 30px;
+    font-family: 'Handlee';
+    width: 100px;
+    height: 3%;
+    padding: 2px;
+    cursor: pointer;
+    color: #ffffff;
+    border-color:black;
+    border-width:1px;
+    border-top-width:0px;
+    border-style:solid;
+    font-size: 11pt;
+    outline: none;
+    font-weight: bold;
+}   
+    </style>
+	<script>
+	function Randοm() { 
+    var rnd =  Math.floor(Math.random() * 18) + 1;
+    document.getElementById('b').value = rnd;
+}</script>
+</head>
+<body>
+    <div align="center" class="section">
+        <fieldset align="center"><legend align="center"><h1><span style="color:#4B4B4B;"><em>Generatore da 1 a 18</em></span></h1></legend>
+    <form name="scemochilegge" >
+        <img src="https://www.continentalsorrento.com/images/divider/div2.png" width="599.322" height="56" alt="img"><div><input type="text" id="tb" name="lol" align="center"/></div>
+        <div><input type="button" value="GENERA" onclick="Random();" class="submit"/></div>
+        <div align="center"><input type="reset" class="_submit" value="&#8635;"></div>
+        
+    </form>
+<div class="credits"><em>Developed By Lord</em></div>
+       </fieldset>
+   </div> 
+</body>
+</html>
+
+
